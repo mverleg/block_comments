@@ -1,0 +1,9 @@
+{
+  "name": "block_comments",
+  "title": "Block comments",
+  "id": "jid1-ivcxOqKtwpqwOw",
+  "description": "This addon blocks comments on some websites where they are notoriously bad.",
+  "author": "Mark",
+  "license": "BSD",
+  "version": "0.1"
+}
