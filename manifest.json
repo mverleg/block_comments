@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+
+  "name": "Block comments",
+  "version": "2.0.0",
+  "author": "Mark",
+  "homepage_url": "https://github.com/mverleg/block_comments",
+  "description": "This addon blocks comments on some websites where they are notoriously bad.",
+  "icons": {
+    "128": "bc.png"
+  },
+  "applications": {
+    "gecko": {
+      "id": "jid1-ivcxOqKtwpqwOw@jetpack",
+      "strict_min_version": "57.0"
+    }
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*.youtube.com"],
+//      "js": ["borderify.js"]
+      "css": ["block_comments.css"]
+    }
+  ]
+}

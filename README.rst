@@ -2,12 +2,11 @@
 Block comments (Firefox addon)
 ---------------------------------------
 
-User content is an indispensable part of the internet. Think of all the awesome Youtube videos. But on some occasions, the content is better without frustrated people with too much time spewing their wordy ignorance all over your screen. Think of Youtube 96.4% of all Youtube comments.
+User content is an indispensable part of the internet. Think of all the awesome Youtube videos. But on some occasions, the content is better bored people spewing their wordy ignorance all over your screen. Think of 96.4% of all Youtube comments.
 
-This comic describes it well: http://www.smbc-comics.com/index.php?db=comics&id=759
+This comic describes it well: https://www.smbc-comics.com/comic/2007-03-14
 
-Stil, it can be tempting to read it, and even reply. This addon is here to help you resist that urge, by simply hiding this wordy ignorance.
-
+It can be tempting to read it, and even reply. This addon is here to help you resist that urge, by simply hiding this wordy ignorance.
 
 Included websites
 ---------------------------------------
@@ -15,28 +14,30 @@ Included websites
 These things are blocked:
 
 * Youtube: comments
-* 9gag: comments
 
+which is already enough to save days worth of time, but other suggestions are welcome!
 
-(This list might not be entirely up-to-date)
-
-
-Contributors
+Contributions
 ---------------------------------------
 
-Any additional blocking rules are most welcome! The code is at https://bitbucket.org/mverleg/firefox_no_comments
-
+Any additional blocking rules are most welcome! You can request them at https://github.com/mverleg/block_comments/issues
 
 License
 ---------------------------------------
 
-Revised BSD License, see LICENSE.txt. You can use the addon as you choose, without warranty. The code is also available, see Contributors.
+Revised BSD License, see https://github.com/mverleg/block_comments/blob/master/LICENSE.txt. You can use the addon as you choose, without warranty. The code is also available, see Contributors.
 
 Other addons
 ---------------------------------------
 
-* Hide distracting "read more" parts of some popular sites - https://addons.mozilla.org/firefox/addon/block_read_more/
-* Hide comments on some popular sites where they are notoriously unconstructive [this one] - https://addons.mozilla.org/firefox/addon/block-comments/
-* Hide the registration overlay on Quora - https://addons.mozilla.org/firefox/addon/quora-unfade/
+* `Block 'read more'`_ removes distracting 'read more' sections on a select number of websites.
+* `Block comments`_ removes comments on a select number of websites where they're known to be particularly bad.
+* `Quora unfade`_ removes the fading effect and login box that Quora forces upon its visitors.
+* `No cross-domain referer`_ changes a few settings to limit the use of cross-domain referer headers, which enhances your online privacy.
+
+.. _Block comments: https://addons.mozilla.org/en-US/firefox/addon/block-comments/
+.. _Block 'read more': https://addons.mozilla.org/en-US/firefox/addon/block_read_more/
+.. _Quora unfade: https://addons.mozilla.org/en-US/firefox/addon/quora-unfade/
+.. _No cross-domain referer: https://addons.mozilla.org/en-US/firefox/addon/no-cross-domain-referer/
 
 
