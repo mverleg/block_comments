@@ -18,12 +18,8 @@
 
   "content_scripts": [
     {
-      "matches": [
-        "*://*.youtube.com/*"
-      ],
-      "css": [
-        "src/block_comments.css"
-      ]
+      "matches": ["*://*.youtube.com/*"],
+      "css": ["src/block_comments_youtube.css"]
     }
   ]
 }
