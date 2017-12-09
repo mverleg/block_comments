@@ -12,15 +12,18 @@
   "applications": {
     "gecko": {
       "id": "jid1-ivcxOqKtwpqwOw@jetpack",
-      "strict_min_version": "57.0"
+      "strict_min_version": "48.0"
     }
   },
 
   "content_scripts": [
     {
-      "matches": ["*.youtube.com"],
-//      "js": ["borderify.js"]
-      "css": ["block_comments.css"]
+      "matches": [
+        "*://*.youtube.com/*"
+      ],
+      "css": [
+        "src/block_comments.css"
+      ]
     }
   ]
 }
